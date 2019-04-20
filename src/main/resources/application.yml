@@ -1,0 +1,9 @@
+server:  port: 8090    
+   
+spring:
+  datasource:
+    url: jdbc:h2:~/gateway
+    username: sa
+    password:
+  application:    name: cliente
+jwt.secret : SequenciaDeCaracteresParaAssinarTokenjwt.expiration : 600000
